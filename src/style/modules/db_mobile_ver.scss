@@ -1,0 +1,206 @@
+@media (max-width: 420px){
+    .dashboard{
+        margin-left: 0px;
+        margin-top: 0px;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 65px;
+        &-headline{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2px;
+            h1{
+                font-family: "Poppins-bold";
+                margin-left: 4px;
+                font-size: 42px;
+            }
+            p{
+                color: #838383;
+                font-family: "Poppins-regular";
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: -0.1px;
+                margin-top: 7px;
+            }
+            img{
+                width: 30px;
+            }
+        }
+        &-menu{
+            display: flex;
+            flex-direction: column;
+            ul{
+                list-style: none;
+                padding: 0px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 20px;
+                li{
+                    display: flex;
+                    align-items: center;
+                    padding-left: 11px;
+                    gap: 4px;
+                    width: 350px;
+                    height: 46px;
+                    a{
+                        text-decoration: none;
+                        color: grey;
+                        font-family: "Poppins-semibold";
+                        font-size: 24px;
+                    }
+                    svg{
+                        width: 32px;
+                        height: 32px;
+                    }
+                    svg:last-child{
+                        display: none;
+                    }
+                }
+                // li:first-child{
+                //     svg:first-child{
+                //         width: 46px;
+                //         height: 38px;
+                //     }
+                // }
+                // li:nth-child(2){
+                //     svg:first-child{
+                //         width: 46px;
+                //         height: 38px;
+                //     }
+                //     svg:last-child{
+                //         margin-left: 5.6rem;
+                //         width: 36px;
+                //         height: 36px;
+                //     }
+                // }
+                // li:nth-child(3){
+                //     svg:first-child{
+                //         width: 46px;
+                //         height: 38px;
+                //     }
+                //     svg:last-child{
+                //         margin-left: 4rem;
+                //         width: 36px;
+                //         height: 36px;
+                //     }
+                // }
+                // li:nth-child(4){
+                //     svg:first-child{
+                //         width: 46px;
+                //         height: 38px;
+                //     }
+                //     svg:last-child{
+                //         margin-left: 5.7rem;
+                //         width: 36px;
+                //         height: 36px;
+                //     }
+                // }
+                // li:nth-child(5){
+                //     svg:first-child{
+                //         width: 46px;
+                //         height: 38px;
+                //     }
+                //     svg:last-child{
+                //         margin-left: 5.3rem;
+                //         width: 36px;
+                //         height: 36px;
+                //     }
+                // }
+                // li:nth-child(6){
+                //     svg:first-child{
+                //         width: 46px;
+                //         height: 36px;
+                //     }
+                //     svg:last-child{
+                //         margin-left: 7.3rem;
+                //         width: 36px;
+                //         height: 36px;
+                //     }
+                // }
+                li:hover{
+                    display: flex;
+                    align-items: center;
+                    width: 350px;
+                    height: 46px;
+                    background: #5932EA;
+                    border-radius: 8px;
+                    a{
+                        color: white;
+                    }
+                    svg{
+                        path{
+                            stroke: white;
+                        }
+                    }
+                }
+                li:nth-child(2):hover{
+                    svg:first-child{
+                        path{
+                            stroke: none;
+                            fill: white;
+                        }
+                    }
+                }
+                li:nth-child(3):hover{
+                    svg:first-child{
+                        path{
+                            stroke: white;
+                            fill: none;
+                        }
+                    }
+                }
+                li:nth-child(5):hover{
+                    svg:first-child{
+                        path{
+                            stroke: none;
+                            fill: white;
+                        }
+                    }
+                }
+                li:nth-child(6):hover{
+                    svg:first-child{
+                        path{
+                            stroke: none;
+                            fill: white;
+                        }
+                    }
+                }
+            }
+        }
+        &-pm_block{
+            margin-top: 0px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.5rem;
+            &-text{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 5px;            
+                h2{
+                    color: #000;
+                    font-family: "Poppins-bold";
+                    font-size: 28px;
+                    line-height: normal;
+                    letter-spacing: 0.14px;            
+                }
+                p{
+                    color: #757575;
+                    font-family: "Poppins-regular";
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    letter-spacing: 0.12px;            
+                }
+            }
+        }
+    }    
+}

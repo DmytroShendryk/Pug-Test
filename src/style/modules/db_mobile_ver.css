@@ -1,0 +1,127 @@
+@media (max-width: 420px) {
+  .dashboard {
+    margin-left: 0px;
+    margin-top: 0px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+  }
+  .dashboard-headline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+  }
+  .dashboard-headline h1 {
+    font-family: "Poppins-bold";
+    margin-left: 4px;
+    font-size: 42px;
+  }
+  .dashboard-headline p {
+    color: #838383;
+    font-family: "Poppins-regular";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.1px;
+    margin-top: 7px;
+  }
+  .dashboard-headline img {
+    width: 30px;
+  }
+  .dashboard-menu {
+    display: flex;
+    flex-direction: column;
+  }
+  .dashboard-menu ul {
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .dashboard-menu ul li {
+    display: flex;
+    align-items: center;
+    padding-left: 11px;
+    gap: 4px;
+    width: 350px;
+    height: 46px;
+  }
+  .dashboard-menu ul li a {
+    text-decoration: none;
+    color: grey;
+    font-family: "Poppins-semibold";
+    font-size: 24px;
+  }
+  .dashboard-menu ul li svg {
+    width: 32px;
+    height: 32px;
+  }
+  .dashboard-menu ul li svg:last-child {
+    display: none;
+  }
+  .dashboard-menu ul li:hover {
+    display: flex;
+    align-items: center;
+    width: 350px;
+    height: 46px;
+    background: #5932EA;
+    border-radius: 8px;
+  }
+  .dashboard-menu ul li:hover a {
+    color: white;
+  }
+  .dashboard-menu ul li:hover svg path {
+    stroke: white;
+  }
+  .dashboard-menu ul li:nth-child(2):hover svg:first-child path {
+    stroke: none;
+    fill: white;
+  }
+  .dashboard-menu ul li:nth-child(3):hover svg:first-child path {
+    stroke: white;
+    fill: none;
+  }
+  .dashboard-menu ul li:nth-child(5):hover svg:first-child path {
+    stroke: none;
+    fill: white;
+  }
+  .dashboard-menu ul li:nth-child(6):hover svg:first-child path {
+    stroke: none;
+    fill: white;
+  }
+  .dashboard-pm_block {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .dashboard-pm_block-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+  .dashboard-pm_block-text h2 {
+    color: #000;
+    font-family: "Poppins-bold";
+    font-size: 28px;
+    line-height: normal;
+    letter-spacing: 0.14px;
+  }
+  .dashboard-pm_block-text p {
+    color: #757575;
+    font-family: "Poppins-regular";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.12px;
+  }
+}/*# sourceMappingURL=db_mobile_ver.css.map */

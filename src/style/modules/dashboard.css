@@ -1,0 +1,122 @@
+@import url(fonts.css);
+.dashboard {
+  margin-left: 28px;
+  margin-top: 37px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 65px;
+}
+.dashboard-headline {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.dashboard-headline h1 {
+  font-family: "Poppins-bold";
+  margin-left: 4px;
+}
+.dashboard-headline p {
+  color: #838383;
+  font-family: "Poppins-regular";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.1px;
+  margin-top: 13px;
+}
+.dashboard-menu {
+  display: flex;
+  flex-direction: column;
+}
+.dashboard-menu ul {
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.dashboard-menu ul li {
+  display: flex;
+  align-items: center;
+  padding-left: 11px;
+  gap: 14px;
+  width: 250px;
+  height: 46px;
+}
+.dashboard-menu ul li a {
+  text-decoration: none;
+  color: grey;
+  font-family: "Poppins-semibold";
+}
+.dashboard-menu ul li:nth-child(2) svg:last-child {
+  margin-left: 6.5rem;
+}
+.dashboard-menu ul li:nth-child(3) svg:last-child {
+  margin-left: 5rem;
+}
+.dashboard-menu ul li:nth-child(4) svg:last-child {
+  margin-left: 6.7rem;
+}
+.dashboard-menu ul li:nth-child(5) svg:last-child {
+  margin-left: 6.3rem;
+}
+.dashboard-menu ul li:nth-child(6) svg:last-child {
+  margin-left: 8.3rem;
+}
+.dashboard-menu ul li:hover {
+  display: flex;
+  align-items: center;
+  width: 250px;
+  height: 46px;
+  background: #5932EA;
+  border-radius: 8px;
+}
+.dashboard-menu ul li:hover a {
+  color: white;
+}
+.dashboard-menu ul li:hover svg path {
+  stroke: white;
+}
+.dashboard-menu ul li:nth-child(2):hover svg:first-child path {
+  stroke: none;
+  fill: white;
+}
+.dashboard-menu ul li:nth-child(3):hover svg:first-child path {
+  stroke: white;
+  fill: none;
+}
+.dashboard-menu ul li:nth-child(5):hover svg:first-child path {
+  stroke: none;
+  fill: white;
+}
+.dashboard-menu ul li:nth-child(6):hover svg:first-child path {
+  stroke: none;
+  fill: white;
+}
+.dashboard-pm_block {
+  margin-top: 8rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.dashboard-pm_block-pic img {
+  border-radius: 280px;
+  height: 32px;
+}
+.dashboard-pm_block-text h2 {
+  color: #000;
+  font-family: "Poppins-bold";
+  font-size: 14px;
+  line-height: normal;
+  letter-spacing: 0.14px;
+}
+.dashboard-pm_block-text p {
+  color: #757575;
+  font-family: "Poppins-regular";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.12px;
+}/*# sourceMappingURL=dashboard.css.map */

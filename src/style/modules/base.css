@@ -1,0 +1,10 @@
+.base {
+  display: flex;
+}
+
+@media (max-width: 420px) {
+  .base {
+    display: flex;
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=base.css.map */

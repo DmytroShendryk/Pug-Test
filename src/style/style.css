@@ -1,0 +1,8 @@
+@import url(modules/dashboard.css);
+@import url(modules/base.css);
+@import url(modules/customer_board.css);
+@import url(modules/db_mobile_ver.css);
+@import url(modules/cb_mobile_ver.css);
+* {
+  margin: 0px;
+}/*# sourceMappingURL=style.css.map */
